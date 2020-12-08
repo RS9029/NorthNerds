@@ -1,0 +1,11 @@
+<svg id="divider" xmlns="http://www.w3.org/2000/svg" width="129" height="393" viewBox="0 0 129 393">
+  <path id="Path_20" data-name="Path 20" d="M6897.237,547.676l57.375,104.319-57.375,114.751,57.375,85.194" transform="translate(-6862 -502)" fill="none" stroke="#373737" stroke-width="5"/>
+  <g id="Ellipse_8" data-name="Ellipse 8" fill="none" stroke="#373737" stroke-width="5">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="22.5" fill="none"/>
+  </g>
+  <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(79 343)" fill="none" stroke="#373737" stroke-width="5">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="22.5" fill="none"/>
+  </g>
+</svg>

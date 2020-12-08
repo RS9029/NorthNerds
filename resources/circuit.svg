@@ -1,0 +1,7 @@
+<svg id="circuit" xmlns="http://www.w3.org/2000/svg" width="416.5" height="50" viewBox="0 0 416.5 50">
+  <line id="Line_7" data-name="Line 7" x2="367" transform="translate(0 25.5)" fill="none" stroke="#efa00b" stroke-width="5"/>
+  <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(366.5)" fill="#fff" stroke="#efa00b" stroke-width="5">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="22.5" fill="none"/>
+  </g>
+</svg>

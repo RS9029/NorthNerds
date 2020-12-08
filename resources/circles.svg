@@ -1,0 +1,21 @@
+<svg id="Component_15_1" data-name="Component 15 – 1" xmlns="http://www.w3.org/2000/svg" width="585" height="758" viewBox="0 0 585 758">
+  <line id="Line_6" data-name="Line 6" x2="152" y2="241" transform="translate(221.5 449.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.15"/>
+  <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(373 641)" fill="none" stroke="#707070" stroke-width="5" opacity="0.15">
+    <circle cx="58.5" cy="58.5" r="58.5" stroke="none"/>
+    <circle cx="58.5" cy="58.5" r="56" fill="none"/>
+  </g>
+  <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(96 223)" fill="none" stroke="#707070" stroke-width="5" opacity="0.15">
+    <circle cx="113" cy="113" r="113" stroke="none"/>
+    <circle cx="113" cy="113" r="110.5" fill="none"/>
+  </g>
+  <line id="Line_5" data-name="Line 5" y1="122" x2="146" transform="translate(296.5 134.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.15"/>
+  <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(418)" fill="none" stroke="#707070" stroke-width="5" opacity="0.15">
+    <ellipse cx="83.5" cy="79.5" rx="83.5" ry="79.5" stroke="none"/>
+    <ellipse cx="83.5" cy="79.5" rx="81" ry="77" fill="none"/>
+  </g>
+  <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(0 16)" fill="none" stroke="#707070" stroke-width="5" opacity="0.15">
+    <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
+    <circle cx="37.5" cy="37.5" r="35" fill="none"/>
+  </g>
+  <line id="Line_4" data-name="Line 4" x2="91" y2="147" transform="translate(53.5 91.5)" fill="none" stroke="#707070" stroke-width="3" opacity="0.15"/>
+</svg>

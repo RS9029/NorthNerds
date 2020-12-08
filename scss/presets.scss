@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.orange{
+    color: $primary-color;
+}
+
+.subhead{
+    font:bold 80px sans-serif;
+}

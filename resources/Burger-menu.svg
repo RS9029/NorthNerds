@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="45" viewBox="0 0 56 45">
+  <g id="Burger-menu" transform="translate(2.5 2.5)">
+    <line id="Line_2" data-name="Line 2" x2="51" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_3" data-name="Line 3" x2="51" transform="translate(0 40)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+    <path id="Path_7" data-name="Path 7" d="M0,0H51" transform="translate(0 20)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>
