@@ -11,7 +11,7 @@
     <!-- Modal -->
 
     <div id="modal">
-        <form class="contact-form">
+        <form method="POST" action="" class="contact-form" id="modal-form">
             <div class="contact-container">
                 <div class="contact-inputs">
                     <input type="text" placeholder="Name">
@@ -30,25 +30,34 @@
         <ul class="nav-links">
             <a href="./index.html"><li class="nav-link">Home</li></a>
             <a href="/pages/about.html"><li class="nav-link">About</li></a>
-            <li class="nav-link">Services</li>
+            <li class="nav-link" id="services">Services
+                <ul id="services-sub-menu">
+                    <div id="arrow"></div>
+                    <a href="/pages/custom-websites.html"><li>Custom Websites</li></a>
+                    <a href="/pages/template-websites.html"><li>Template Websites</li></a>
+                    <a href="/pages/custom-websites.html"><li>General Services</li></a>
+                    <a href="/pages/custom-websites.html"><li>Custom Websites</li></a>
+                    
+                </ul>
+            </li>
             <a href="/pages/contact.html"><li class="nav-link">Contact</li></a>
-            <button id="quote-button">Quote</button>
+            <button id="quote-button">Estimate</button>
         </ul>
     </nav>
+
+
 
     
     <!-- Section 1 -->
     <section id="main-section">
         <img src="./resources/North_Nerds_Logo.svg" id="main-logo" alt="logo">
         <h1 id="motto">Start A <span class="orange">New</span> Chapter</h1>
-        <div class="devices-bg"></div>
-        
     </section>
 
     <!-- Section 2 -->
 
     <section id="section-two">
-        <h1 class="subhead">The Process</h1>
+        <h1 class="subhead">Our Process</h1>
         <!-- step 1 -->
         <div class="process">
             <div class="steps-info">

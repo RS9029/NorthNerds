@@ -4,7 +4,6 @@
 
 let nav = document.getElementById("nav");
 let section2Top = document.getElementById("section-two").offsetTop;
-let logoX = document.getElementById("logoX")
 let mainSection = document.getElementById("main-section");
 
 function stickyNav(){
@@ -12,14 +11,12 @@ function stickyNav(){
         nav.style.position = "fixed";
         nav.style.backgroundColor = "white";
         nav.style.zIndex = "10";
-        logoX.style.opacity = "1";
         mainSection.style.paddingTop = `${nav.offsetHeight}px`;
 
     }
     else{
         nav.style.position = "relative";
         mainSection.style.paddingTop = "0px";
-        logoX.style.opacity = "0";
         nav.style.backgroundColor = "transparent";
     }
 }
@@ -27,18 +24,50 @@ function stickyNav(){
 window.addEventListener('scroll',stickyNav);
 
 
+//Nav Submenu
+
+const servicesLink = document.getElementById('services');
+const navSubMenu = document.getElementById('services-sub-menu')
+
+function handleEnter(){
+    navSubMenu.style.display = "flex";
+    
+}
+function handleLeave(){
+    
+    if(navSubMenu.style.display == "flex"){
+        navSubMenu.style.display = "none";
+    }
+}
+
+servicesLink.addEventListener('mouseenter',handleEnter);
+navSubMenu.addEventListener('mouseleave',handleLeave);
+
+
+
 // MODAL CONTROL
 
 let modal = document.getElementById("modal");
 let quoteBtn = document.getElementById('quote-button');
 
+
 function modalOn(){
     modal.style.display = "flex";
 }
 
-function modalOff(){
-    modal.style.display = "none";
+function modalOff(e){
+    if(e.target == modal){
+        modal.style.display = "none";
+    }
 }
 
 quoteBtn.addEventListener("click",modalOn);
-modal.addEventListener("click",modalOff);
+modal.addEventListener("click",modalOff,{capture:true});
+
+
+
+
+// Custom Site Page
+
+    // PACKAGES CONTROL
+
